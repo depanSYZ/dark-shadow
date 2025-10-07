@@ -1350,7 +1350,7 @@ app.use((err, req, res, next) => {
 initializeWhatsAppConnections();
 bot.launch();
 
-app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, '2.0.3.9', () => {
   console.log(`🚀 Server is running on port ${PORT}`);
   console.log(` Access dashboard: https://nullbyte.space/dashboard`);
   console.log(` Access DDOS panel: https://nullbyte.space/ddos-dashboard`);
